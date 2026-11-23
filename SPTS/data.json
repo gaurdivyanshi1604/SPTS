@@ -1,0 +1,846 @@
+{
+    "users": {
+        "Divyanshi_B": {
+            "id": "Divyanshi_B",
+            "name": "Divyanshi Bhawsar",
+            "email": "divyanshi.bhawsar@spts.edu",
+            "password": "admin123",
+            "role": "admin",
+            "profilePic": ""
+        },
+        "Divyanshi_G": {
+            "id": "Divyanshi_G",
+            "name": "Divyanshi Gaur",
+            "email": "divyanshi.gaur@spts.edu",
+            "password": "teacher123",
+            "role": "teacher",
+            "profilePic": "",
+            "department": "CSE",
+            "subjects": [
+                "Data Structures",
+                "Operating Systems"
+            ],
+            "classesAssigned": 120,
+            "classesPresent": 110,
+            "classesSkipped": 10,
+            "feedback": [
+                {
+                    "from": "Dhruv Chadha",
+                    "rating": 5,
+                    "comment": "Excellent teaching methodology"
+                },
+                {
+                    "from": "Divyansh Carpenter",
+                    "rating": 4,
+                    "comment": "Very helpful and clear explanations"
+                },
+                {
+                    "from": "Divyansh Deore",
+                    "rating": 5,
+                    "comment": "Best teacher in the department"
+                },
+                {
+                    "from": "Dhruv Nigam",
+                    "rating": 4,
+                    "comment": "Great engagement in class"
+                }
+            ],
+            "holidays": 10,
+            "dept": "CSE"
+        },
+        "Dhruv_C": {
+            "id": "Dhruv_C",
+            "name": "Dhruv Chadha",
+            "email": "dhruv.chadha@spts.edu",
+            "password": "student123",
+            "role": "student",
+            "profilePic": "",
+            "rollNo": "CSE2024001",
+            "programme": "B.Tech",
+            "branch": "CSE",
+            "semester": 3,
+            "year": 2
+        },
+        "Divyansh_C": {
+            "id": "Divyansh_C",
+            "name": "Divyansh Carpenter",
+            "email": "divyansh.carpenter@spts.edu",
+            "password": "student123",
+            "role": "student",
+            "profilePic": "",
+            "rollNo": "CSE2024002",
+            "programme": "B.Tech",
+            "branch": "CSE",
+            "semester": 3,
+            "year": 2
+        },
+        "Dhruv_N": {
+            "id": "Dhruv_N",
+            "name": "Dhruv Nigam",
+            "email": "dhruv.nigam@spts.edu",
+            "password": "student123",
+            "role": "student",
+            "profilePic": "",
+            "rollNo": "CSE2024004",
+            "programme": "B.Tech",
+            "branch": "CSE",
+            "semester": 3,
+            "year": 2
+        },
+        "disha_123": {
+            "id": "disha_123",
+            "name": "Disha man",
+            "email": "disha123@spts.edu",
+            "password": "disha123",
+            "rollNo": "CSE123456",
+            "semester": 3,
+            "year": 2,
+            "role": "student",
+            "profilePic": "",
+            "programme": "B.Tech",
+            "branch": "CSE"
+        },
+        "Garvita_123": {
+            "id": "Garvita_123",
+            "name": "Garvita Khera",
+            "email": "garvita@spts.edu",
+            "password": "garvita123",
+            "department": "CSE",
+            "subjects": [
+                "Computer Networks"
+            ],
+            "role": "teacher",
+            "profilePic": "",
+            "classesAssigned": 45,
+            "classesPresent": 43,
+            "classesSkipped": 2,
+            "feedback": [
+                {
+                    "from": "Dhruv Chadha",
+                    "rating": 5,
+                    "comment": "Explains networking concepts and socket programming very thoroughly."
+                },
+                {
+                    "from": "Divyansh Carpenter",
+                    "rating": 4,
+                    "comment": "Good practical demonstrations in lab sessions."
+                }
+            ],
+            "holidays": 2,
+            "dept": "CSE"
+        }
+    },
+    "subjects": [
+        {
+            "code": "CS301",
+            "name": "Data Structures",
+            "credits": 4,
+            "teacher": "Divyanshi_G"
+        },
+        {
+            "code": "CS302",
+            "name": "Operating Systems",
+            "credits": 4,
+            "teacher": "Divyanshi_G"
+        },
+        {
+            "code": "CS303",
+            "name": "Database Management Systems",
+            "credits": 3,
+            "teacher": "Divyanshi_G"
+        },
+        {
+            "code": "CS304",
+            "name": "Computer Networks",
+            "credits": 3,
+            "teacher": "Divyanshi_G"
+        },
+        {
+            "code": "CS305",
+            "name": "Mathematics III",
+            "credits": 4,
+            "teacher": "Divyanshi_G"
+        }
+    ],
+    "marks": {
+        "Dhruv_C": {
+            "CS301": {
+                "mst1": 38,
+                "mst2": 40,
+                "internal": 22,
+                "endsem": 55,
+                "total": 100
+            },
+            "CS302": {
+                "mst1": 35,
+                "mst2": 37,
+                "internal": 20,
+                "endsem": 50,
+                "total": 100
+            },
+            "CS303": {
+                "mst1": 42,
+                "mst2": 44,
+                "internal": 24,
+                "endsem": 60,
+                "total": 100
+            },
+            "CS304": {
+                "mst1": 30,
+                "mst2": 33,
+                "internal": 18,
+                "endsem": 45,
+                "total": 100
+            },
+            "CS305": {
+                "mst1": 36,
+                "mst2": 39,
+                "internal": 21,
+                "endsem": 52,
+                "total": 100
+            }
+        },
+        "Divyansh_C": {
+            "CS301": {
+                "mst1": 40,
+                "mst2": 42,
+                "internal": 23,
+                "endsem": 58,
+                "total": 100
+            },
+            "CS302": {
+                "mst1": 33,
+                "mst2": 36,
+                "internal": 19,
+                "endsem": 48,
+                "total": 100
+            },
+            "CS303": {
+                "mst1": 44,
+                "mst2": 45,
+                "internal": 25,
+                "endsem": 62,
+                "total": 100
+            },
+            "CS304": {
+                "mst1": 28,
+                "mst2": 31,
+                "internal": 17,
+                "endsem": 42,
+                "total": 100
+            },
+            "CS305": {
+                "mst1": 37,
+                "mst2": 40,
+                "internal": 22,
+                "endsem": 54,
+                "total": 100
+            }
+        },
+        "Dhruv_N": {
+            "CS301": {
+                "mst1": 32,
+                "mst2": 35,
+                "internal": 19,
+                "endsem": 47,
+                "total": 100
+            },
+            "CS302": {
+                "mst1": 28,
+                "mst2": 30,
+                "internal": 16,
+                "endsem": 40,
+                "total": 100
+            },
+            "CS303": {
+                "mst1": 36,
+                "mst2": 38,
+                "internal": 21,
+                "endsem": 53,
+                "total": 100
+            },
+            "CS304": {
+                "mst1": 25,
+                "mst2": 28,
+                "internal": 15,
+                "endsem": 38,
+                "total": 100
+            },
+            "CS305": {
+                "mst1": 30,
+                "mst2": 33,
+                "internal": 18,
+                "endsem": 45,
+                "total": 100
+            }
+        },
+        "disha_123": {
+            "CS301": {
+                "mst1": 37,
+                "mst2": 39,
+                "internal": 21,
+                "endsem": 54,
+                "total": 100
+            },
+            "CS302": {
+                "mst1": 34,
+                "mst2": 36,
+                "internal": 19,
+                "endsem": 49,
+                "total": 100
+            },
+            "CS303": {
+                "mst1": 40,
+                "mst2": 42,
+                "internal": 22,
+                "endsem": 58,
+                "total": 100
+            },
+            "CS304": {
+                "mst1": 32,
+                "mst2": 34,
+                "internal": 18,
+                "endsem": 46,
+                "total": 100
+            },
+            "CS305": {
+                "mst1": 35,
+                "mst2": 38,
+                "internal": 20,
+                "endsem": 51,
+                "total": 100
+            }
+        }
+    },
+    "attendance": {
+        "Dhruv_C": {
+            "CS301": {
+                "present": 38,
+                "total": 45,
+                "percentage": 84.4
+            },
+            "CS302": {
+                "present": 40,
+                "total": 45,
+                "percentage": 88.9
+            },
+            "CS303": {
+                "present": 35,
+                "total": 42,
+                "percentage": 83.3
+            },
+            "CS304": {
+                "present": 37,
+                "total": 42,
+                "percentage": 88.1
+            },
+            "CS305": {
+                "present": 42,
+                "total": 45,
+                "percentage": 93.3
+            }
+        },
+        "Divyansh_C": {
+            "CS301": {
+                "present": 36,
+                "total": 45,
+                "percentage": 80
+            },
+            "CS302": {
+                "present": 38,
+                "total": 45,
+                "percentage": 84.4
+            },
+            "CS303": {
+                "present": 33,
+                "total": 42,
+                "percentage": 78.6
+            },
+            "CS304": {
+                "present": 35,
+                "total": 42,
+                "percentage": 83.3
+            },
+            "CS305": {
+                "present": 40,
+                "total": 45,
+                "percentage": 88.9
+            }
+        },
+        "Dhruv_N": {
+            "CS301": {
+                "present": 30,
+                "total": 45,
+                "percentage": 66.7
+            },
+            "CS302": {
+                "present": 32,
+                "total": 45,
+                "percentage": 71.1
+            },
+            "CS303": {
+                "present": 28,
+                "total": 42,
+                "percentage": 66.7
+            },
+            "CS304": {
+                "present": 30,
+                "total": 42,
+                "percentage": 71.4
+            },
+            "CS305": {
+                "present": 35,
+                "total": 45,
+                "percentage": 77.8
+            }
+        },
+        "disha_123": {
+            "CS301": {
+                "present": 36,
+                "total": 45,
+                "percentage": 80.0
+            },
+            "CS302": {
+                "present": 38,
+                "total": 45,
+                "percentage": 84.4
+            },
+            "CS303": {
+                "present": 34,
+                "total": 42,
+                "percentage": 81.0
+            },
+            "CS304": {
+                "present": 35,
+                "total": 42,
+                "percentage": 83.3
+            },
+            "CS305": {
+                "present": 39,
+                "total": 45,
+                "percentage": 86.7
+            }
+        }
+    },
+    "teachers": [
+        {
+            "id": "Divyanshi_G",
+            "name": "Divyanshi Gaur",
+            "department": "CSE",
+            "dept": "CSE",
+            "subjects": [
+                "Data Structures",
+                "Operating Systems"
+            ],
+            "classesAssigned": 120,
+            "classesPresent": 110,
+            "classesSkipped": 10,
+            "holidays": 10,
+            "avgFeedbackRating": 4.8
+        },
+        {
+            "id": "Garvita_123",
+            "name": "Garvita Khera",
+            "department": "CSE",
+            "dept": "CSE",
+            "subjects": [
+                "Computer Networks"
+            ],
+            "classesAssigned": 45,
+            "classesPresent": 43,
+            "classesSkipped": 2,
+            "holidays": 2,
+            "avgFeedbackRating": 4.5
+        }
+    ],
+    "courses": [
+        {
+            "name": "B.Tech",
+            "branches": [
+                "CSE"
+            ],
+            "semesters": 8
+        }
+    ],
+    "systemRequirements": {
+        "hardware": {
+            "processor": "Dual-core processor or higher",
+            "ram": "Minimum 4 GB RAM",
+            "storage": "Sufficient storage space for application and student records",
+            "peripherals": "Keyboard and mouse",
+            "network": "Internet or local network connection"
+        },
+        "software": {
+            "frontend": "HTML, CSS, JavaScript",
+            "backend": "Java (simulated with JavaScript for demo)",
+            "browsers": [
+                "Google Chrome",
+                "Microsoft Edge",
+                "Mozilla Firefox"
+            ],
+            "os": [
+                "Windows",
+                "Linux",
+                "macOS"
+            ]
+        },
+        "features": [
+            "User Authentication with role-based access",
+            "Student Information Management",
+            "Academic Marks and Subject-wise Performance Management",
+            "Attendance Management with Pie Charts",
+            "Performance Calculation and Analysis",
+            "Student Performance Tracking with Progress Bars",
+            "Performance Reports Generation",
+            "Light/Dark Mode Toggle",
+            "Password Change Functionality",
+            "Profile Picture Upload",
+            "Teacher Management & Feedback Reports",
+            "Marks Entry: MST1, MST2, Internal, End Sem"
+        ]
+    },
+    "questions": [
+        {
+            "id": 1,
+            "subject": "CS301",
+            "exam": "mst1",
+            "question": "What is the primary characteristic of an Abstract Data Type (ADT)?",
+            "optionA": "It specifies data implementation details",
+            "optionB": "It specifies operations without implementation details",
+            "optionC": "It is always stored in non-volatile memory",
+            "optionD": "It can only store primitive data types",
+            "answer": "B"
+        },
+        {
+            "id": 2,
+            "subject": "CS301",
+            "exam": "mst1",
+            "question": "Which data structure is most appropriate for evaluating postfix arithmetic expressions?",
+            "optionA": "Queue",
+            "optionB": "Stack",
+            "optionC": "Binary Search Tree",
+            "optionD": "Hash Table",
+            "answer": "B"
+        },
+        {
+            "id": 3,
+            "subject": "CS301",
+            "exam": "mst1",
+            "question": "What is the worst-case time complexity of searching an element in a balanced Binary Search Tree?",
+            "optionA": "O(1)",
+            "optionB": "O(log n)",
+            "optionC": "O(n)",
+            "optionD": "O(n log n)",
+            "answer": "B"
+        },
+        {
+            "id": 4,
+            "subject": "CS301",
+            "exam": "mst2",
+            "question": "Which data structure follows the First-In-First-Out (FIFO) access order?",
+            "optionA": "Stack",
+            "optionB": "Queue",
+            "optionC": "Tree",
+            "optionD": "Graph",
+            "answer": "B"
+        },
+        {
+            "id": 5,
+            "subject": "CS302",
+            "exam": "mst1",
+            "question": "Which of the following is NOT an operating system kernel responsibility?",
+            "optionA": "Process Scheduling",
+            "optionB": "Memory Management",
+            "optionC": "Source Code Compilation",
+            "optionD": "Interrupt Handling",
+            "answer": "C"
+        },
+        {
+            "id": 6,
+            "subject": "CS301",
+            "exam": "mst2",
+            "question": "What is the worst-case time complexity of QuickSort?",
+            "optionA": "O(n)",
+            "optionB": "O(n log n)",
+            "optionC": "O(n^2)",
+            "optionD": "O(log n)",
+            "answer": "C"
+        },
+        {
+            "id": 7,
+            "subject": "CS301",
+            "exam": "internal",
+            "question": "Which graph traversal algorithm uses a Queue data structure?",
+            "optionA": "Depth First Search (DFS)",
+            "optionB": "Breadth First Search (BFS)",
+            "optionC": "Dijkstra's Algorithm",
+            "optionD": "Kruskal's Algorithm",
+            "answer": "B"
+        },
+        {
+            "id": 8,
+            "subject": "CS301",
+            "exam": "endsem",
+            "question": "In an AVL tree, the balance factor of any node must be strictly within which range?",
+            "optionA": "-1, 0, or 1",
+            "optionB": "-2, 0, or 2",
+            "optionC": "0 to height",
+            "optionD": "Always 0",
+            "answer": "A"
+        },
+        {
+            "id": 9,
+            "subject": "CS302",
+            "exam": "mst1",
+            "question": "Which CPU scheduling algorithm can cause indefinite blocking (starvation)?",
+            "optionA": "Round Robin",
+            "optionB": "First-Come First-Served",
+            "optionC": "Shortest Job First (non-preemptive)",
+            "optionD": "Priority Scheduling without aging",
+            "answer": "D"
+        },
+        {
+            "id": 10,
+            "subject": "CS302",
+            "exam": "mst2",
+            "question": "Which of the following conditions is NOT required for a deadlock to occur (Coffman conditions)?",
+            "optionA": "Mutual Exclusion",
+            "optionB": "Hold and Wait",
+            "optionC": "Preemption Allowed",
+            "optionD": "Circular Wait",
+            "answer": "C"
+        },
+        {
+            "id": 11,
+            "subject": "CS302",
+            "exam": "internal",
+            "question": "What term describes a state where an OS spends more time swapping pages than executing instructions?",
+            "optionA": "Deadlock",
+            "optionB": "Thrashing",
+            "optionC": "Fragmentation",
+            "optionD": "Starvation",
+            "answer": "B"
+        },
+        {
+            "id": 12,
+            "subject": "CS302",
+            "exam": "endsem",
+            "question": "The Banker's Algorithm in modern operating systems is primarily used for:",
+            "optionA": "Deadlock Avoidance",
+            "optionB": "Deadlock Detection and Recovery",
+            "optionC": "Virtual Memory Paging",
+            "optionD": "Disk Head Scheduling",
+            "answer": "A"
+        },
+        {
+            "id": 13,
+            "subject": "CS303",
+            "exam": "mst1",
+            "question": "A relation is in Second Normal Form (2NF) if it is in 1NF and contains no:",
+            "optionA": "Transitive Dependency",
+            "optionB": "Partial Functional Dependency",
+            "optionC": "Multi-valued Dependency",
+            "optionD": "Join Dependency",
+            "answer": "B"
+        },
+        {
+            "id": 14,
+            "subject": "CS303",
+            "exam": "mst2",
+            "question": "Which ACID property guarantees that all transactions complete entirely or not at all?",
+            "optionA": "Atomicity",
+            "optionB": "Consistency",
+            "optionC": "Isolation",
+            "optionD": "Durability",
+            "answer": "A"
+        },
+        {
+            "id": 15,
+            "subject": "CS303",
+            "exam": "internal",
+            "question": "Which SQL clause is strictly used to filter grouped rows resulting from a GROUP BY query?",
+            "optionA": "WHERE",
+            "optionB": "HAVING",
+            "optionC": "ORDER BY",
+            "optionD": "FILTER",
+            "answer": "B"
+        },
+        {
+            "id": 16,
+            "subject": "CS303",
+            "exam": "endsem",
+            "question": "Which index structure is standard in relational databases for efficient range queries and sequential access?",
+            "optionA": "B+ Tree",
+            "optionB": "Hash Map",
+            "optionC": "Red-Black Tree",
+            "optionD": "Trie",
+            "answer": "A"
+        },
+        {
+            "id": 17,
+            "subject": "CS304",
+            "exam": "mst1",
+            "question": "In the OSI reference model, which layer provides end-to-end reliability and flow control?",
+            "optionA": "Network Layer",
+            "optionB": "Transport Layer",
+            "optionC": "Session Layer",
+            "optionD": "Data Link Layer",
+            "answer": "B"
+        },
+        {
+            "id": 18,
+            "subject": "CS304",
+            "exam": "mst2",
+            "question": "Which transport protocol is connectionless and does not guarantee message delivery or ordering?",
+            "optionA": "TCP",
+            "optionB": "UDP",
+            "optionC": "SCTP",
+            "optionD": "SSH",
+            "answer": "B"
+        },
+        {
+            "id": 19,
+            "subject": "CS304",
+            "exam": "internal",
+            "question": "What is the standard default subnet mask for an IPv4 Class C network?",
+            "optionA": "255.0.0.0",
+            "optionB": "255.255.0.0",
+            "optionC": "255.255.255.0",
+            "optionD": "255.255.255.255",
+            "answer": "C"
+        },
+        {
+            "id": 20,
+            "subject": "CS304",
+            "exam": "endsem",
+            "question": "Which interior routing protocol calculates optimal routing paths using Dijkstra's Shortest Path algorithm?",
+            "optionA": "Routing Information Protocol (RIP)",
+            "optionB": "Open Shortest Path First (OSPF)",
+            "optionC": "Border Gateway Protocol (BGP)",
+            "optionD": "Address Resolution Protocol (ARP)",
+            "answer": "B"
+        },
+        {
+            "id": 21,
+            "subject": "CS305",
+            "exam": "mst1",
+            "question": "What is the probability of rolling a sum of 7 when rolling two fair six-sided dice simultaneously?",
+            "optionA": "1/6",
+            "optionB": "1/12",
+            "optionC": "5/36",
+            "optionD": "7/36",
+            "answer": "A"
+        },
+        {
+            "id": 22,
+            "subject": "CS305",
+            "exam": "mst2",
+            "question": "According to the Handshaking Lemma for any undirected graph, the sum of vertex degrees is:",
+            "optionA": "Equal to the number of vertices",
+            "optionB": "Twice the number of edges",
+            "optionC": "Equal to chromatic number",
+            "optionD": "Always a prime number",
+            "answer": "B"
+        },
+        {
+            "id": 23,
+            "subject": "CS305",
+            "exam": "internal",
+            "question": "If a square matrix has a determinant equal to zero, the matrix is classified as:",
+            "optionA": "Orthogonal",
+            "optionB": "Singular (non-invertible)",
+            "optionC": "Identity Matrix",
+            "optionD": "Symmetric",
+            "answer": "B"
+        },
+        {
+            "id": 24,
+            "subject": "CS305",
+            "exam": "endsem",
+            "question": "The eigenvalues of any upper or lower triangular matrix are precisely:",
+            "optionA": "Zero everywhere",
+            "optionB": "Its main diagonal entries",
+            "optionC": "The determinants of each minor",
+            "optionD": "Complex conjugate pairs",
+            "answer": "B"
+        }
+    ],
+    "assignments": [
+        {
+            "id": 1,
+            "title": "Binary Search Tree & Balanced AVL Implementation",
+            "subject": "CS301",
+            "dueDate": "2026-11-28",
+            "maxMarks": 25,
+            "description": "Implement node insertion, deletion, and rotation routines for a self-balancing AVL Tree in C++ or Java with empirical balance-factor verification.",
+            "submissions": {
+                "Dhruv_C": {
+                    "studentName": "Dhruv Chadha",
+                    "submittedAt": "11/14/2026, 3:20:15 PM",
+                    "content": "Implemented complete AVL tree with left/right rotations and balance factor verification. GitHub: https://github.com/dhruv-chadha/avl-tree-cpp",
+                    "marks": 24,
+                    "status": "Submitted"
+                },
+                "Divyansh_C": {
+                    "studentName": "Divyansh Carpenter",
+                    "submittedAt": "11/13/2026, 5:10:45 PM",
+                    "content": "Implemented BST and AVL trees with in-order traversal and height metrics in Java.",
+                    "marks": 23,
+                    "status": "Submitted"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "title": "Process Scheduling Algorithms Simulation",
+            "subject": "CS302",
+            "dueDate": "2026-12-02",
+            "maxMarks": 25,
+            "description": "Simulate Round Robin (time quantum = 4ms) and Preemptive Shortest Job First (SJF) in Python or C. Compute average turnaround and waiting times.",
+            "submissions": {
+                "Divyansh_C": {
+                    "studentName": "Divyansh Carpenter",
+                    "submittedAt": "11/14/2026, 6:40:12 PM",
+                    "content": "Simulated Round Robin and SJF with Gantt charts. Average turnaround time computed.",
+                    "marks": 25,
+                    "status": "Submitted"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "title": "Relational Schema Design & 3NF Normalization",
+            "subject": "CS303",
+            "dueDate": "2026-12-05",
+            "maxMarks": 25,
+            "description": "Construct an enterprise database schema for an E-Commerce portal. Normalize up to 3NF/BCNF, documenting functional dependencies and candidate keys.",
+            "submissions": {
+                "Divyansh_C": {
+                    "studentName": "Divyansh Carpenter",
+                    "submittedAt": "11/14/2026, 8:15:00 PM",
+                    "content": "Constructed 3NF and BCNF schema for hospital management with dependency diagrams.",
+                    "marks": 24,
+                    "status": "Submitted"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "title": "Multi-threaded TCP Socket Client-Server Chat",
+            "subject": "CS304",
+            "dueDate": "2026-12-08",
+            "maxMarks": 25,
+            "description": "Build a multi-client concurrent TCP socket chat server in Python or Java supporting broadcast broadcasting and client join/leave notifications.",
+            "submissions": {}
+        },
+        {
+            "id": 5,
+            "title": "Discrete Graph Theory & Shortest Path Proofs",
+            "subject": "CS305",
+            "dueDate": "2026-12-12",
+            "maxMarks": 25,
+            "description": "Prove the Handshaking Lemma for connected undirected graphs and solve single-source shortest paths on an 8-node weighted topology using Dijkstra.",
+            "submissions": {}
+        }
+    ]
+}
